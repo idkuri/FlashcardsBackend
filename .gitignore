@@ -1,6 +1,7 @@
-# Ignore compiled Python files
-__pycache__/
-*.py[cod]
+# Ignore Python cache files in api
+/api/__pycache__/
+/api/*.pyc
 
-# Ignore environment directory
-my-env/
+# Ignore Python cache files in flashcards
+/flashcards/__pycache__/
+/flashcards/*.pyc
